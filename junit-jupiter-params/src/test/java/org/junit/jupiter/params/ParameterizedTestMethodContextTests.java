@@ -20,6 +20,7 @@ import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.params.aggregator.AggregatorIntegrationTests.CsvToPerson;
 import org.junit.jupiter.params.aggregator.AggregatorIntegrationTests.Person;
 import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
+import org.junit.jupiter.params.provider.JsonTemplateSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 /**

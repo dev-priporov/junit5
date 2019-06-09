@@ -18,7 +18,8 @@ dependencies {
 	testImplementation(project(":junit-jupiter-engine"))
 	testImplementation(project(":junit-platform-launcher"))
 	testImplementation(project(":junit-platform-runner"))
-
+	implementation("org.codehaus.jackson:jackson-mapper-asl:1.9.13")
+	
 	compileOnly("org.jetbrains.kotlin:kotlin-stdlib")
 	testImplementation("org.jetbrains.kotlin:kotlin-stdlib")
 }
